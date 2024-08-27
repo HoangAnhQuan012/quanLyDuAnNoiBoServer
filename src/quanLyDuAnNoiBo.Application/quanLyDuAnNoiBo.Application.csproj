@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>quanLyDuAnNoiBo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\quanLyDuAnNoiBo.Domain\quanLyDuAnNoiBo.Domain.csproj" />
+    <ProjectReference Include="..\quanLyDuAnNoiBo.Application.Contracts\quanLyDuAnNoiBo.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DistributedLock.SqlServer" Version="1.0.4" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.6" />
+    <PackageReference Include="Volo.Abp.Account.Application" Version="8.0.2" />
+    <PackageReference Include="Volo.Abp.BackgroundWorkers.Hangfire" Version="8.0.0" />
+    <PackageReference Include="Volo.Abp.DistributedLocking" Version="8.0.0" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="8.0.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="8.0.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="8.0.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="8.0.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="8.0.2" />
+  </ItemGroup>
+
+</Project>

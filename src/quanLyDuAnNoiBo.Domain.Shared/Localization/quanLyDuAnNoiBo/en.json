@@ -1,0 +1,19 @@
+{
+  "culture": "en",
+  "texts": {
+    "Menu:Home": "Home",
+    "Welcome": "Welcome",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io.",
+
+    // Permission Management
+    "quanLyDuAnNoiBo.AccountManagement": "Quản trị hệ thống",
+    "quanLyDuAnNoiBo.BoDProjectManagement": "BoD Quản lý dự án",
+    "quanLyDuAnNoiBo.ProjectManagement": "PM Quản lý dự án",
+    "quanLyDuAnNoiBo.HRManagement": "Quản lý nhân sự",
+    "quanLyDuAnNoiBo.DanhMucManagement": "Quản lý danh mục",
+    "quanLyDuAnNoiBo.NhanVienChamCong": "Chấm công",
+    "quanLyDuAnNoiBo.PheDuyetChamCong": "Phê duyệt chấm công",
+    "quanLyDuAnNoiBo.BaoCaoChamCong": "Báo cáo chấm công",
+    "quanLyDuAnNoiBo.BaoCaoTongHop": ""
+  }
+}
